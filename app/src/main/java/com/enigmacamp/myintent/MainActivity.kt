@@ -21,6 +21,9 @@ Intent dibagi menjadi 2:
 - Implicit Intent: intent yang akan melakukan pemanggilan aplikasi lainnya di dalam device yang sama
   contohnya : membuka aplikasi browser,aplikasi email,aplikasi telepon, dll
   https://developer.android.com/guide/components/intents-common
+
+Aplikasi yang kita buat juga bisa menerima sebuah intent dari aplikasi lainnya
+menggunkan tag elemen <intent-filter> di androidManifest.xml
  */
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
